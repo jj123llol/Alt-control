@@ -63,14 +63,22 @@ function veryepictrol(x)
 			if cmd == "cmds" then
 				wait()
 				local args = {
-					[1] = "⭐Cmds are bring,kill,furry,women,women2,freeze,unfreeze,hell,void,holy,god,kidnap.",
+					[1] = "⭐Cmds are bring,kill,freeze,unfreeze,hell,void,holy,god,kidnap.",
 					[2] = "All"
 				}
 
 				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				wait(1)
 				local args = {
-					[1] = "trip,sit,lay,lay,freeze,jump,void,speedy,chat,banlands,ummidk,rich.⭐",
+					[1] = "trip,sit,lay,lay,freeze,jump,void,speedy,chat,banlands",
+					[2] = "All"
+				}
+
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+				
+				wait(1)
+				local args = {
+					[1] = "these only work in bully rp: furry,women,women2,ummidk,roleplay,rich,walter,scary,⭐",
 					[2] = "All"
 				}
 
