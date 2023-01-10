@@ -71,8 +71,8 @@ function veryepictrol(x)
 local plr = game.Players.LocalPlayer.Character
 local CF = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local lp = game.Players.LocalPlayer
-local char = Speaker.Character
-local hrp = getRoot(Speaker.Character)
+local char = game.Players.LocalPlayer.Character
+local hrp = getRoot(game.Players.LocalPlayer.Character)
 h.Parent = game.Players.LocalPlayer.Character
 h.Name = "Hum"
 
@@ -84,7 +84,7 @@ for _,v in pairs(game.Players.LocalPlayer:GetDescendants()) do
     end
 end
 workspace.CurrentCamera.CameraSubject = char
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = target.HumanoidRootPart.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame
 wait(0.1)
 hrp.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5,999999)
 				end
@@ -1200,4 +1200,11 @@ for i,plr in pairs(game.Players:GetPlayers()) do
 			veryepictrol(plr)
 		end
 	end
+end
+
+
+
+function getRoot(char)
+	local rootPart = char:FindFirstChild('HumanoidRootPart') or char:FindFirstChild('Torso') or char:FindFirstChild('UpperTorso')
+	return rootPart
 end
