@@ -97,7 +97,7 @@ hrp.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5,999999)
 			if cmd == "cmds" then
 				wait()
 				local args = {
-					[1] = "⭐Cmds are bring,kill,freeze,unfreeze,hell,void,holy,god,kidnap.",
+					[1] = "⭐Cmds are bring,kill,freeze,unfreeze,hell,void,tkill,holy,god,kidnap.",
 					[2] = "All"
 				}
 
