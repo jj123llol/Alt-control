@@ -105,8 +105,8 @@ function veryepictrol(x)
 			end
 			
 			if cmd == "women" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -191,8 +191,8 @@ game.Players.LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args)
 			
 			
 			if cmd == "emo" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -261,8 +261,8 @@ game.Players.LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args)
 			
 			
 			if cmd == "furry" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -346,8 +346,8 @@ game.Players.LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args)
 			
 			
 			if cmd == "scary" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -417,8 +417,8 @@ game.Players.LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args)
 			
 			
 			if cmd == "rich" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -490,7 +490,7 @@ if cmd == "women2" then
 
 
 local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -595,8 +595,8 @@ end
 
 
 			if cmd == "ummidk" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -662,8 +662,8 @@ game.Players.LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args)
 			
 			
 			if cmd == "walter" then
-			local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+		
+				local target = game.Players.LocalPlayer
 				print(Who)
 				
 			game.Players.LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -730,16 +730,15 @@ game.Players.LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args)
 			
 			
 			if cmd == "kill" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
-				print(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.Humanoid.Health = 0
 			end
 			
 			
 			if cmd == "givetool" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				print(Who)
 				for _,v in pairs(game:GetService("Workspace")["Spray Can Giver"].Giver:GetDescendants()) do
 if v:IsA("TouchTransmitter") then
@@ -764,23 +763,23 @@ game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(unpack(args))
 
 
 			if cmd == "bring" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				print (target.Name)
 				local ME = game:GetService("Workspace")[x.Name].Torso.CFrame
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ME
 			end
 
 			if cmd == "save" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(40.3467751, 269.770599, -11.007906, -0.710547626, -1.13326699e-07, 0.703649104, -7.29338794e-08, 1, 8.74067823e-08, -0.703649104, 1.07868185e-08, -0.710547626)
 			end
 
 
 			if cmd == "trip" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				local Human = game.Players.LocalPlayer.Character.Humanoid
 				if not Human then
 					return
@@ -794,8 +793,8 @@ game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(unpack(args))
 			end
 
 			if cmd == "kick" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer:Kick("Kicked by admin")
 			end 
 			if cmd == "close" then
@@ -809,20 +808,20 @@ game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(unpack(args))
 			
 
 			if cmd == "sit" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
-				game.Players.LocalPlayer.Character.Humanoid.Sit = true
+			
+				local target = game.Players.LocalPlayer
+				game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit = true
 			end
 
 			if cmd == "freeze" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
 			end
 
 			if cmd == "bring,freeze" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				local ME = game:GetService("Workspace")[x.Name].Torso.CFrame
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ME
 				wait(0.5)
@@ -830,27 +829,27 @@ game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(unpack(args))
 			end
 
 			if cmd == "unfreeze" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 			end
 
 			if cmd == "speedy" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
 			end
 
 
 			if cmd == "fling" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-29645.6641, 2647586.5, 16135477, -0.989213824, 0.00574239623, 0.146365836, 0.005804908, 0.999983132, -2.75625993e-08, -0.146363363, 0.00084961293, -0.989230514)
 			end
 
 			if cmd == "banlands" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-29645.6641, 2647586.5, 16135477, -0.989213824, 0.00574239623, 0.146365836, 0.005804908, 0.999983132, -2.75625993e-08, -0.146363363, 0.00084961293, -0.989230514)
 			end
 
@@ -858,8 +857,8 @@ game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(unpack(args))
 
 
                                if cmd == "ban" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-999999999999999999999999999999, 2647586.5, 16135477, -0.989213824, 0.00574239623, 0.146365836, 0.005804908, 0.999983132, -2.75625993e-08, -0.146363363, 0.00084961293, -0.989230514)
 local StarterGUI = game:GetService("StarterGui")
 StarterGUI:SetCore("ResetButtonCallback", false)
@@ -867,8 +866,8 @@ StarterGUI:SetCore("ResetButtonCallback", false)
 			end
 			
 			 if cmd == "unban" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 local StarterGUI = game:GetService("StarterGui")
 StarterGUI:SetCore("ResetButtonCallback", true)
 wait(0.5)
@@ -890,8 +889,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 
 
 			if cmd == "hell" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(300, Enum.EasingStyle.Linear)
 
 				tween = tweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(0, -1000, 0)})
@@ -901,8 +900,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 			end
 
 			if cmd == "void" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(300, Enum.EasingStyle.Linear)
 
 				tween = tweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(0, -1000, 0)})
@@ -912,8 +911,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 			end
 
 			if cmd == "god" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(300, Enum.EasingStyle.Linear)
 
 				tween = tweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(0, 9000, 0)})
@@ -925,8 +924,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 			
 			
 			if cmd == "kidnap" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(300, Enum.EasingStyle.Linear)
 
 				tween = tweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(10000, 0, 5)})
@@ -938,8 +937,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 
 
 			if cmd == "holy" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(300, Enum.EasingStyle.Linear)
 
 				tween = tweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(0, 9000, 0)})
@@ -1014,8 +1013,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 			end
 
 			if cmd =="jump" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				game.Players.LocalPlayer.Character.Humanoid.Jump = true
 			end
 			
@@ -1024,12 +1023,12 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 
 			
 			 if cmd =="bang" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				local ME = game:GetService("Workspace")[x.Name].Torso.CFrame
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ME
 				wait(0.3)
-				local Human = game.Players.LocalPlayer.Character.Humanoid
+				local Human = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
 				if not Human then
 					return
 				end
@@ -1038,7 +1037,7 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 				Human.RootPart.CFrame = Human.RootPart.CFrame * CFrame.Angles(math.pi * .15, 0, 0)
 				for _, v in ipairs(Human:GetPlayingAnimationTracks()) do
 					v:Stop()
-					local Human = game.Players.LocalPlayertarget.Character.Humanoid
+					local Human = game.Players.LocalPlayer.Character.Humanoid
 					if not Human then
 						return
 					end
@@ -1079,8 +1078,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 			
 			
 			if cmd == "sit,freeze" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				local Human = game.Players.LocalPlayer.Character.Humanoid
 				if not Human then
 					return
@@ -1106,8 +1105,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 			
 			
 			if cmd =="lay" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				local Human = game.Players.LocalPlayer.Character.Humanoid
 				if not Human then
 					return
@@ -1120,8 +1119,8 @@ local ME = game:GetService("Workspace").revsteppinsstand.Torso.CFrame
 				end
 			end
 			if cmd =="lay,freeze" then
-				local Who = string.sub(msg,space+1)
-				local target = GetPlayer(Who)
+			
+				local target = game.Players.LocalPlayer
 				local Human = game.Players.LocalPlayer.Character.Humanoid
 				if not Human then
 					return
