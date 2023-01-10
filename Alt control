@@ -59,6 +59,42 @@ function veryepictrol(x)
 			
 			
 			
+						if cmd == "tkill" then
+									local Who = string.sub(msg,space+1)
+				local target = GetPlayer(Who)
+				print(Who)
+				wait()
+				
+				  local NormPos = getRoot(Speaker.Character).CFrame
+    wait(0.5)
+  local h = game.Players.LocalPlayer.Character.Humanoid:Clone()
+local plr = game.Players.LocalPlayer.Character
+local CF = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local lp = game.Players.LocalPlayer
+local char = Speaker.Character
+local hrp = getRoot(Speaker.Character)
+h.Parent = game.Players.LocalPlayer.Character
+h.Name = "Hum"
+
+game.Players.LocalPlayer.Character.Humanoid:Destroy()
+
+for _,v in pairs(game.Players.LocalPlayer:GetDescendants()) do
+    if v.ClassName == "Tool" then
+        v.Parent = plr
+    end
+end
+workspace.CurrentCamera.CameraSubject = char
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = target.HumanoidRootPart.CFrame
+wait(0.1)
+hrp.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5,999999)
+wait(11)
+hrp.CFrame = NormPos	
+				end
+			
+			
+			
+			
+			
 			
 			if cmd == "cmds" then
 				wait()
