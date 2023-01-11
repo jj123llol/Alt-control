@@ -295,7 +295,7 @@ end
 workspace.CurrentCamera.CameraSubject = char
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame
 wait(0.3)
-			ame.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82.2578125, 451.800171, 5529.99072, -0.799662828, 3.5737731e-08, -0.600449264, 5.41002514e-08, 1, -1.25309993e-08, 0.600449264, -4.25050324e-08, -0.799662828)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82.2578125, 451.800171, 5529.99072, -0.799662828, 3.5737731e-08, -0.600449264, 5.41002514e-08, 1, -1.25309993e-08, 0.600449264, -4.25050324e-08, -0.799662828)
 			end
 			
 			
