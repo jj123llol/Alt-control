@@ -86,7 +86,7 @@ for _,v in pairs(game.Players.LocalPlayer:GetDescendants()) do
 end
 workspace.CurrentCamera.CameraSubject = char
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame
-wait(0.1)
+wait(0.5)
 hrp.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5,999999)
 				end
 				
