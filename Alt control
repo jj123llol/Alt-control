@@ -159,109 +159,109 @@ game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').HipHeight =
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
 
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
 
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3.5
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2.5
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
 wait(0.2)
-local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 3
+local plrlv = game.Workspace[You].HumanoidRootPart.CFrame.LookVector * 2
 local You2 = game.Workspace[You].HumanoidRootPart.CFrame + plrlv
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = You2
